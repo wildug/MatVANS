@@ -30,10 +30,10 @@ Our proposed method is chmpetitive with standard quantized matrix-vector kernels
 - `buffered/` and `matvansWarpPerRow/` contains the source code of two variants out proposed method
 
 ## creating and writing dummy-weights files
-First make sure that you have created your `*matrices*.bin` files by using `create_matfiles.py`.
+First make sure that you have created your `*matrices*.bin` files by using `create_matfiles*.py` in each corresponding folder.
 To run `create_matfiles.py` simply execute 
 ```bash
-python create_matfiles.py
+python create_matfiles*.py
 ```
 in the terminal and adapt the variables to your needs.
 
