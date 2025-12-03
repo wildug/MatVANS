@@ -26,7 +26,7 @@ Our proposed method is chmpetitive with standard quantized matrix-vector kernels
 ## Structure of the project:
 
 - python script `create_matfiles.py` for creating required compressed and raw binaries `.bin` 
-- `cuBLAS_baseline_float/` and `baseline_int/` directories contain baselines
+- the `baselines` folder contains `cuBLAS_baseline_float/` and `baseline_int8/` as the single precision floating point number and 8-bit integer baseline
 - `buffered/` and `matvansWarpPerRow/` contains the source code of two variants out proposed method
 
 ## creating and writing dummy-weights files
